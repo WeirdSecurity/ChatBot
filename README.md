@@ -1,4 +1,3 @@
-
 # 🤖 Chatbot (FastAPI + OpenAI Wrapper + HTML/CSS)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
@@ -86,29 +85,12 @@ Bot: Hi there 👋 How can I help you today?
 
 ---
 
-## 🎨 UI Screenshot
-
-*(Example placeholder – you can add an actual screenshot later)*
-
-![Chatbot UI Preview](https://via.placeholder.com/600x350.png?text=Gemini+Chatbot+Preview)
-
----
-
 ## 📜 Example Conversation
 
 ```
 You: What is FastAPI?
 Bot: FastAPI is a modern, fast web framework for building APIs with Python 3.7+.
 ```
-
----
-
-## 💡 Future Improvements
-
-* [ ] Add **database support** (SQLite/Postgres)
-* [ ] Add **user authentication**
-* [ ] Deploy on **Render / Vercel / AWS**
-* [ ] Support **streaming responses**
 
 ---
 
