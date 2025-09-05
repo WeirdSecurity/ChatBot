@@ -4,7 +4,7 @@ from openai import OpenAI
 import uuid
 
 client = OpenAI(
-    api_key="AIzaSyBKPPlS8DQLHrRKhVRbZaOdD9_3uAOdZtY",
+    api_key="API_KEY",
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
@@ -255,4 +255,5 @@ def chat(request: Request, prompt: str = Form(...), session_id: str = ""):
         </script>
     </body>
     </html>
+
     """
