@@ -1,16 +1,10 @@
-Got it 👍 Since your project **uses the OpenAI Python wrapper to connect with Google’s Gemini API**, I’ll make that very clear in the **README**.
-Here’s the updated and polished version:
 
----
-
-# 🤖 Gemini Chatbot (FastAPI + OpenAI Wrapper + HTML/CSS)
+# 🤖 Chatbot (FastAPI + OpenAI Wrapper + HTML/CSS)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-teal?logo=fastapi)
 ![OpenAI Wrapper](https://img.shields.io/badge/OpenAI-Wrapper-orange?logo=openai)
 ![Gemini API](https://img.shields.io/badge/Google-Gemini%20API-red?logo=google)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-success)
 
 This is a **simple chatbot web app** built with **FastAPI**, **HTML/CSS**, and powered by **Google Gemini API** using the **OpenAI Python wrapper**.
 It supports **session-based chat history**, message persistence in a file, and a clean UI for chatting.
