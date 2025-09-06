@@ -1,30 +1,34 @@
-# 🤖 Chatbot (FastAPI + OpenAI Wrapper + HTML/CSS)
+Got it 👍 Since your code now includes a **Clear Chat button**, session tracking, and file-based persistence, I’ll make you a **new README** that fits this version.
+
+Here’s a polished `README.md` for your GitHub profile:
+
+---
+
+# 🤖 Gemini Chatbot (FastAPI + OpenAI Wrapper + HTML/CSS)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-teal?logo=fastapi)
 ![OpenAI Wrapper](https://img.shields.io/badge/OpenAI-Wrapper-orange?logo=openai)
 ![Gemini API](https://img.shields.io/badge/Google-Gemini%20API-red?logo=google)
 
-This is a **simple chatbot web app** built with **FastAPI**, **HTML/CSS**, and powered by **Google Gemini API** using the **OpenAI Python wrapper**.
-It supports **session-based chat history**, message persistence in a file, and a clean UI for chatting.
+This project is a **chatbot web application** built with **FastAPI**, **HTML/CSS**, and powered by the **Google Gemini API** using the **OpenAI Python wrapper**.
+It features **session-based conversation tracking**, **persistent chat history**, and a **Clear Chat** option to reset the conversation.
 
 ---
 
 ## 🚀 Features
 
-✅ **FastAPI backend** – lightweight and scalable
-✅ **HTML + CSS frontend** – clean and responsive design
-✅ **OpenAI Wrapper** – connects to Gemini API using OpenAI’s SDK
-✅ **Session management** – each user gets a unique session ID
-✅ **Chat history** – stored in a `store.txt` file
-✅ **Auto-scroll** – always scrolls to the latest message
-✅ **Beautiful UI** – user and bot messages styled differently
+✅ **FastAPI backend** – lightweight & scalable
+✅ **Gemini API via OpenAI Wrapper** – easy integration with Google’s AI
+✅ **Session management** – each user has a unique session ID
+✅ **Persistent chat history** – stored in `store.txt`
+✅ **Clear button** – wipes all stored messages with one click
+✅ **Auto-scroll** – always shows the latest message
+✅ **Clean UI** – user messages (blue, right) & bot messages (grey, left)
 
 ---
 
 ## 📸 Demo Preview
-
-Here’s how the chatbot looks in action:
 
 ```
 You: Hello Bot!  
@@ -48,10 +52,10 @@ Bot: Hi there 👋 How can I help you today?
 ## 📂 Project Structure
 
 ```
-📦 chatbot-app
-├── app.py          # Main FastAPI app
-├── store.txt       # Stores chat history
-└── README.md       # Project documentation
+📦 gemini-chatbot
+├── app.py        # Main FastAPI app
+├── store.txt     # Stores all chat history
+└── README.md     # Project documentation
 ```
 
 ---
@@ -60,25 +64,25 @@ Bot: Hi there 👋 How can I help you today?
 
 1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/yourusername/chatbot-app.git
-   cd chatbot-app
-   ```
+```bash
+git clone https://github.com/yourusername/gemini-chatbot.git
+cd gemini-chatbot
+```
 
 2. **Install dependencies**
 
-   ```bash
-   pip install fastapi uvicorn openai
-   ```
+```bash
+pip install fastapi uvicorn openai
+```
 
-3. **Add your Gemini API key**
-   Replace `"API_KEY"` in `app.py` with your actual Gemini API key.
+3. **Set up API Key**
+   Replace `"YOUR_API_KEY"` in `app.py` with your actual **Google Gemini API key**.
 
 4. **Run the app**
 
-   ```bash
-   uvicorn app:app --reload
-   ```
+```bash
+uvicorn app:app --reload
+```
 
 5. **Open in browser**
    Go to 👉 [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -88,16 +92,23 @@ Bot: Hi there 👋 How can I help you today?
 ## 📜 Example Conversation
 
 ```
-You: What is FastAPI?
-Bot: FastAPI is a modern, fast web framework for building APIs with Python 3.7+.
+You: What is FastAPI?  
+Bot: FastAPI is a modern, fast web framework for building APIs with Python 3.7+.  
 ```
+
+---
+
+## 🔄 Clear Chat
+
+Click the **Clear Chat** button to erase all stored history from `store.txt`.
+This will reset the conversation for all sessions.
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome!
-Feel free to **fork this repo** and submit a pull request with your improvements.
+Fork this repo and submit a **pull request** with improvements 🚀
 
 ---
 
@@ -105,3 +116,4 @@ Feel free to **fork this repo** and submit a pull request with your improvements
 
 ---
 
+Would you like me to also add **screenshots/gif placeholders** (like `![screenshot](demo.png)`) so it looks even more professional on GitHub?
