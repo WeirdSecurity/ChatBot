@@ -1,9 +1,3 @@
-Got it 👍 Since your code now includes a **Clear Chat button**, session tracking, and file-based persistence, I’ll make you a **new README** that fits this version.
-
-Here’s a polished `README.md` for your GitHub profile:
-
----
-
 # 🤖 Gemini Chatbot (FastAPI + OpenAI Wrapper + HTML/CSS)
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
